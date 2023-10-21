@@ -10,7 +10,7 @@ int main(int argc, char*argv[])
 	printf("Introduza a idade: ");
 	scanf("%i", &i);
 	printf("Introduza o genero:");
-	scanf("%hhd", &g);
-	printf("Valores introduzidos:\n  altura: %.2lf\n  idade:  %i\n  genero: %d\n", a, i, g);
-	// return 0;
+	scanf(" %c", &g);
+	printf("Valores introduzidos:\n  altura: %.2lf\n  idade:  %i\n  genero: %c\n", a, i, g);
+	return 0;
 }
