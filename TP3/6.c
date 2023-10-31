@@ -2,11 +2,11 @@
 #include<stdio.h>
 int main ()
 {
-	int i1 = 0, temp;
+	int i1 = 0;
 	while(i1++ < 31)
 	{
 		printf("%i: ", i1);
-		switch (i1 %7)
+		switch (i1 % 7)
 		{
 		case 0:
 			printf("sabado\n");
