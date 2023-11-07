@@ -5,7 +5,7 @@ int main()
 	while(i <= 10)
 	{
 		mul3[i -1] = i * 3;
-		mul3[i -1] = i * 5;
+		mul5[i -1] = i * 5;
 		i++;
 	}
 	for(i = 0; i < 10; i++)
